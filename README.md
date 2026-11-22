@@ -93,8 +93,7 @@ python main.py --archivo data/cartera_cuotas.csv --fecha-corte 01/12/2026 --sali
 - `logs/ejecucion_AAAAMMDD_HHMMSS_microsegundos.log`: validaciones, advertencias y errores de cada ejecución.
 
 ## Limitación detectada en el archivo entregado
-`EmailAsesor` no está informado para Martín Quispe. El Excel se genera de todas formas, pero se debe completar ese dato antes de automatizar el envío de correos.
-=======
+- Hay un asesor cuyo correo no existe, por lo tanto al momento de generarse el correo, este no se enviará para este usuario, pero en el log si queda aclarado
 # CASO-TECNICO---ANALISTA-DE-DESARROLLO
 solución al reto técnico de desarrollo : analisis funcional y automatización
->>>>>>> 51eb56d45182fe446a8812d8add3d0da326f5c7d
+
