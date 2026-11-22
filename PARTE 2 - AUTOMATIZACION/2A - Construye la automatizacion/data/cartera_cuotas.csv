@@ -1,0 +1,168 @@
+SeparacionId;EstadoSeparacion;Proyecto;Manzana;Lote;Cliente;DocumentoCliente;TelefonoCliente;Asesor;EmailAsesor;NumeroCuota;FechaVencimiento;Monto;EstadoCuota;FechaPago
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;1;20/04/2026;2008.33;PAGADA;18/04/2026
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;2;20/05/2026;2008.33;PAGADA;18/05/2026
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;3;20/06/2026;2008.33;PAGADA;18/06/2026
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;4;20/07/2026;2008.33;PAGADA;18/07/2026
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;5;20/08/2026;2008.33;PAGADA;18/08/2026
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;6;20/09/2026;2008.33;PAGADA;18/09/2026
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;7;20/10/2026;2008.33;PAGADA;18/10/2026
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;8;20/11/2026;2008.33;PAGADA;18/11/2026
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;9;20/12/2026;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;10;20/01/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;11;20/02/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;12;20/03/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;13;20/04/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;14;20/05/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;15;20/06/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;16;20/07/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;17;20/08/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;18;20/09/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;19;20/10/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;20;20/11/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;21;20/12/2027;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;22;20/01/2028;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;23;20/02/2028;2008.33;PENDIENTE;
+1001;VIGENTE;Residencial Las Lomas;A;1;Rosa Huamán Torres;40125873;987654321;Carla Mendoza;carla.mendoza@example.com;24;20/03/2028;2008.33;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;1;26/06/2026;5262.5;PAGADA;27/06/2026
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;2;26/07/2026;5262.5;PAGADA;27/07/2026
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;3;26/08/2026;5262.5;PAGADA;27/08/2026
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;4;26/09/2026;5262.5;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;5;26/10/2026;5262.5;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;6;26/11/2026;5262.5;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;7;26/12/2026;5262.5;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;8;26/01/2027;5262.5;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;9;26/02/2027;5262.5;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;10;26/03/2027;5262.5;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;11;26/04/2027;5262.5;PENDIENTE;
+1002;VIGENTE;Residencial Las Lomas;A;2;Luis Castillo Ramos;45128890;987111222;Carla Mendoza;carla.mendoza@example.com;12;26/05/2027;5262.5;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;1;11/07/2026;2500;PAGADA;9/07/2026
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;2;11/08/2026;2500;PAGADA;9/08/2026
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;3;11/09/2026;2500;PAGADA;9/09/2026
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;4;11/10/2026;2500;PAGADA;9/10/2026
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;5;11/11/2026;2500;PAGADA;9/11/2026
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;6;11/12/2026;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;7;11/01/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;8;11/02/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;9;11/03/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;10;11/04/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;11;11/05/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;12;11/06/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;13;11/07/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;14;11/08/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;15;11/09/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;16;11/10/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;17;11/11/2027;2500;PENDIENTE;
+1003;VIGENTE;Residencial Las Lomas;A;5;Andrea Vargas Lozano;70451236;986333444;Jorge Salazar;jorge.salazar@example.com;18;11/12/2027;2500;PENDIENTE;
+1004;VIGENTE;Residencial Las Lomas;B;3;Pedro Quispe Mamani;41239087;985555666;Jorge Salazar;jorge.salazar@example.com;1;23/08/2026;7492.86;PAGADA;24/08/2026
+1004;VIGENTE;Residencial Las Lomas;B;3;Pedro Quispe Mamani;41239087;985555666;Jorge Salazar;jorge.salazar@example.com;2;23/09/2026;7492.86;PENDIENTE;
+1004;VIGENTE;Residencial Las Lomas;B;3;Pedro Quispe Mamani;41239087;985555666;Jorge Salazar;jorge.salazar@example.com;3;23/10/2026;7492.86;PENDIENTE;
+1004;VIGENTE;Residencial Las Lomas;B;3;Pedro Quispe Mamani;41239087;985555666;Jorge Salazar;jorge.salazar@example.com;4;23/11/2026;7492.86;PENDIENTE;
+1004;VIGENTE;Residencial Las Lomas;B;3;Pedro Quispe Mamani;41239087;985555666;Jorge Salazar;jorge.salazar@example.com;5;23/12/2026;7492.86;PENDIENTE;
+1004;VIGENTE;Residencial Las Lomas;B;3;Pedro Quispe Mamani;41239087;985555666;Jorge Salazar;jorge.salazar@example.com;6;23/01/2027;7492.86;PENDIENTE;
+1004;VIGENTE;Residencial Las Lomas;B;3;Pedro Quispe Mamani;41239087;985555666;Jorge Salazar;jorge.salazar@example.com;7;23/02/2027;7492.86;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;1;17/09/2026;3979.17;PAGADA;15/09/2026
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;2;17/10/2026;3979.17;PAGADA;15/10/2026
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;3;17/11/2026;3979.17;PAGADA;15/11/2026
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;4;17/12/2026;3979.17;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;5;17/01/2027;3979.17;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;6;17/02/2027;3979.17;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;7;17/03/2027;3979.17;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;8;17/04/2027;3979.17;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;9;17/05/2027;3979.17;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;10;17/06/2027;3979.17;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;11;17/07/2027;3979.17;PENDIENTE;
+1005;VIGENTE;Residencial Las Lomas;B;7;María Flores Gutiérrez;72018845;984777888;Carla Mendoza;carla.mendoza@example.com;12;17/08/2027;3979.17;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;1;17/09/2026;2031.25;PAGADA;15/09/2026
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;2;17/10/2026;2031.25;PAGADA;15/10/2026
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;3;17/11/2026;2031.25;PAGADA;15/11/2026
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;4;17/12/2026;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;5;17/01/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;6;17/02/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;7;17/03/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;8;17/04/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;9;17/05/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;10;17/06/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;11;17/07/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;12;17/08/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;13;17/09/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;14;17/10/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;15;17/11/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;16;17/12/2027;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;17;17/01/2028;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;18;17/02/2028;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;19;17/03/2028;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;20;17/04/2028;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;21;17/05/2028;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;22;17/06/2028;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;23;17/07/2028;2031.25;PENDIENTE;
+1006;VIGENTE;Residencial Las Lomas;B;7;Carlos Rojas Medina;45120034;983999000;Jorge Salazar;jorge.salazar@example.com;24;17/08/2028;2031.25;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;1;1/11/2026;1076.39;PAGADA;30/10/2026
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;2;1/12/2026;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;3;1/01/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;4;1/02/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;5;1/03/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;6;1/04/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;7;1/05/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;8;1/06/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;9;1/07/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;10;1/08/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;11;1/09/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;12;1/10/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;13;1/11/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;14;1/12/2027;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;15;1/01/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;16;1/02/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;17;1/03/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;18;1/04/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;19;1/05/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;20;1/06/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;21;1/07/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;22;1/08/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;23;1/09/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;24;1/10/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;25;1/11/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;26;1/12/2028;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;27;1/01/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;28;1/02/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;29;1/03/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;30;1/04/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;31;1/05/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;32;1/06/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;33;1/07/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;34;1/08/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;35;1/09/2029;1076.39;PENDIENTE;
+1007;VIGENTE;Residencial Las Lomas;C;4;Valentina Pérez Díaz;1245789;982121212;Lucía Paredes;lucia.paredes@example.com;36;1/10/2029;1076.39;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;1;28/02/2026;3073.33;PAGADA;1/03/2026
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;2;28/03/2026;3073.33;PAGADA;29/03/2026
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;3;28/04/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;4;28/05/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;5;28/06/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;6;28/07/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;7;28/08/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;8;28/09/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;9;28/10/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;10;28/11/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;11;28/12/2026;3073.33;PENDIENTE;
+1008;ANULADA;Villa Sol;A;3;José Chávez Aguilar;43987120;981343434;Lucía Paredes;lucia.paredes@example.com;12;28/01/2027;3073.33;PENDIENTE;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;1;9/09/2026;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;2;9/10/2026;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;2;9/10/2026;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;3;9/11/2026;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;4;9/12/2026;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;5;9/01/2027;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;6;9/02/2027;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;7;9/03/2027;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;8;9/04/2027;3400;Pendiente ;
+1010;VIGENTE;Villa Sol;B;2;Miguel Torres Espinoza;71234590;979787878;Martín Quispe;;9;9/05/2027;3400;Pendiente ;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;1;14/10/2026;3356.67;PAGADA;15/10/2026
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;2;14/11/2026;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;3;14/12/2026;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;4;14/01/2027;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;5;14/02/2027;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;6;14/03/2027;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;7;14/04/2027;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;8;14/05/2027;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;9;14/06/2027;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;10;14/07/2027;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;11;14/08/2027;3356.67;PENDIENTE;
+1011;VIGENTE;Villa Sol;B;5;Elena Sánchez Cruz;40987654;978909090;Martín Quispe;;12;14/09/2027;3356.67;PENDIENTE;

@@ -1,0 +1,77 @@
+=====================================================================
+ MESA DE AYUDA - TICKETS DEL SISTEMA DE VENTAS DE LOTES
+ Período: agosto - noviembre 2026
+=====================================================================
+
+[INC-0412] 18/08/2026 09:05  Reportado por: Carla Mendoza (Asesora)
+  "Ayer separé el lote B-07 de Residencial Las Lomas para la Sra. María Flores
+   y hoy veo que Jorge también lo separó para otro cliente, el Sr. Carlos Rojas.
+   El sistema no nos avisó nada. Los dos clientes ya pagaron la separación."
+
+  Extracto del log de la aplicación (17/08/2026):
+  10:42:17.290  [usuario: cmendoza]  EXEC usp_RegistrarSeparacion @LoteId=17, @ClienteId=5, @AsesorId=1, @MontoSeparacion=3000, @NumeroCuotas=12
+  10:42:17.301  [usuario: jsalazar]  EXEC usp_RegistrarSeparacion @LoteId=17, @ClienteId=6, @AsesorId=2, @MontoSeparacion=2000, @NumeroCuotas=24
+  10:42:17.310  [usuario: cmendoza]  OK  SeparacionId=1005
+  10:42:17.355  [usuario: jsalazar]  OK  SeparacionId=1006
+
+---------------------------------------------------------------------
+
+[INC-0431] 25/08/2026 16:20  Reportado por: Cobranzas
+  "El cliente Pedro Quispe (separación 1004) reclama que la suma de sus 7 cuotas
+   es mayor que el saldo que firmó. Le estamos cobrando S/ 0.02 de más. Revisé
+   otras separaciones y a veces la suma da de más y a veces de menos."
+
+---------------------------------------------------------------------
+
+[INC-0440] 02/09/2026 08:47  Reportado por: Martín Quispe (Asesor)
+  "No puedo entrar al sistema, me dice usuario o contraseña incorrectos."
+
+  Resolución: se restableció la contraseña del usuario. Cerrado.
+
+---------------------------------------------------------------------
+
+[INC-0447] 27/10/2026 11:12  Reportado por: Martín Quispe (Asesor)
+  "El sábado registré la separación del lote A-06 de Villa Sol para la Sra. Lucía
+   Ramírez. Ella va a pagar el saldo al contado cuando firme, así que puse 0 cuotas.
+   Hoy otra asesora casi le vende el mismo lote a otro cliente porque en el sistema
+   sigue figurando DISPONIBLE. Además la separación no tiene cronograma."
+
+  Extracto del log de la aplicación (25/10/2026):
+  17:48:09.990  [usuario: mquispe]  EXEC usp_RegistrarSeparacion @LoteId=36, @ClienteId=9, @AsesorId=4, @MontoSeparacion=3500, @NumeroCuotas=0
+  17:48:10.004  [usuario: mquispe]  ERROR Msg 8134, Level 16, State 1, Procedure usp_GenerarCronograma
+                                    Divide by zero error encountered.
+  17:48:10.006  [usuario: mquispe]  La pantalla mostró: "Ocurrió un error, intente nuevamente."
+
+  Consulta posterior en base de datos:
+  SELECT * FROM Separacion WHERE SeparacionId = 1009   -> 1 fila, Estado = VIGENTE
+  SELECT * FROM Cuota      WHERE SeparacionId = 1009   -> 0 filas
+  SELECT Estado FROM Lote  WHERE LoteId = 36          -> DISPONIBLE
+
+---------------------------------------------------------------------
+
+[INC-0452] 03/11/2026 09:30  Reportado por: Lucía Paredes (Asesora)
+  "En el reporte de vencidos de hoy me aparece el Sr. José Chávez con 7 cuotas
+   atrasadas. Él anuló su separación en marzo y ya se le devolvió el dinero.
+   Lo llamé para cobrarle y se molestó mucho."
+
+---------------------------------------------------------------------
+
+[INC-0458] 15/11/2026 10:05  Reportado por: Martín Quispe (Asesor)
+  "Ayer, 14/11, el reporte me mandó llamar a la Sra. Elena Sánchez por una cuota
+   vencida con 0 días de atraso. Su cuota vencía ese mismo día. La clienta se quejó de que
+   la llamamos antes de tiempo y dijo que pagará en estos días."
+
+---------------------------------------------------------------------
+
+[INC-0461] 18/11/2026 07:40  Reportado por: Fiorella (Asistente Comercial)
+  "Hoy no llegó el reporte de vencidos a nadie. Tuve que armarlo a mano."
+
+  Extracto del historial del SQL Server Agent (18/11/2026):
+  07:00:00  Job 'Reporte Diario Vencidos' - Paso 1 'Ejecutar SP'   : Correcto
+  07:00:03  Job 'Reporte Diario Vencidos' - Paso 2 'Enviar correo' : Error
+            Database Mail: The SMTP server requires a secure connection or the
+            client was not authenticated. (cuenta: notificaciones-ventas)
+  07:00:03  Job 'Reporte Diario Vencidos' finalizó con estado: Fallido.
+            No se configuró notificación de fallo para este job.
+
+=====================================================================

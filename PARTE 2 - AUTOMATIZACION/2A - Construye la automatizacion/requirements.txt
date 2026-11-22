@@ -1,0 +1,7 @@
+# Estructura esperada junto a main.py:
+# data/cartera_cuotas.csv           <- entrada requerida; crear y colocar el CSV aquí.
+# output/                           <- se crea automáticamente para guardar el Excel.
+# logs/                             <- se crea automáticamente para guardar un log por ejecución.
+# Las líneas comentadas no son dependencias y pip las ignora.
+pandas>=2.2
+openpyxl>=3.1

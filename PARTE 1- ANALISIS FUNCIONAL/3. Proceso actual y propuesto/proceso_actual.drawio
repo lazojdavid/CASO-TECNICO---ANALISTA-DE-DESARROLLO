@@ -1,0 +1,253 @@
+<mxfile host="65bd71144e">
+    <diagram id="proceso-actual" name="Proceso actual">
+        <mxGraphModel dx="1129" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="2200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="Cliente interesado en un lote" vertex="1">
+                    <mxGeometry height="60" width="220" x="430" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=13;fontColor=#ffffff;" value="Consultar disponibilidad&#xa;en Excel y sistema antiguo" vertex="1">
+                    <mxGeometry height="70" width="260" x="410" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="¿Lote disponible?" vertex="1">
+                    <mxGeometry height="110" width="210" x="435" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=13;fontColor=#ffffff;" value="Buscar otro lote" vertex="1">
+                    <mxGeometry height="70" width="180" x="750" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=13;fontColor=#ffffff;" value="Registrar separación manual" vertex="1">
+                    <mxGeometry height="70" width="220" x="430" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2CC;strokeColor=#d6b656;fontSize=13;" value="¿Tipo de monto de separación?" vertex="1">
+                    <mxGeometry height="120" width="260" x="410" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontSize=13;fontColor=#ffffff;" value="Villa Sol: S/ 2,000" vertex="1">
+                    <mxGeometry height="70" width="180" x="20" y="525" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontSize=13;fontColor=#ffffff;" value="Cliente conocido:&#xa;monto menor acordado" vertex="1">
+                    <mxGeometry height="70" width="180" x="230" y="525" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontSize=13;fontColor=#ffffff;" value="Lote estándar:&#xa;S/ 1,000" vertex="1">
+                    <mxGeometry height="70" width="180" x="660" y="525" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="¿Cotizar en dólares?" vertex="1">
+                    <mxGeometry height="110" width="210" x="435" y="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" value="Registrar precio&#xa;en dólares (USD)" vertex="1">
+                    <mxGeometry height="70" width="180" x="720" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" value="Registrar precio&#xa;en soles (S/)" vertex="1">
+                    <mxGeometry height="70" width="180" x="450" y="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=13;fontColor=#ffffff;" value="Cliente tiene 30 días para firmar&#xa;la minuta y pagar la inicial" vertex="1">
+                    <mxGeometry height="70" width="260" x="410" y="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="¿Firmó la minuta&#xa;y pagó la inicial?" vertex="1">
+                    <mxGeometry height="120" width="260" x="410" y="1040" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="¿Gerencia aprueba ampliación?" vertex="1">
+                    <mxGeometry height="110" width="260" x="720" y="1045" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=13;fontColor=#ffffff;" value="Otorgar ampliación&#xa;y extender plazo" vertex="1">
+                    <mxGeometry height="70" width="180" x="760" y="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontSize=13;fontColor=#ffffff;" value="Separación cae" vertex="1">
+                    <mxGeometry height="70" width="180" x="760" y="1190" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="¿Cliente se desiste?" vertex="1">
+                    <mxGeometry height="110" width="210" x="435" y="1200" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="¿Se devuelve la separación?" vertex="1">
+                    <mxGeometry height="100" width="240" x="90" y="1205" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontSize=13;fontColor=#ffffff;" value="Devolver separación" vertex="1">
+                    <mxGeometry height="70" width="180" x="120" y="1070" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontSize=13;fontColor=#ffffff;" value="No devolver separación&#xa;según el caso" vertex="1">
+                    <mxGeometry height="70" width="180" x="120" y="1340" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" value="Definir forma de pago&#xa;del saldo" vertex="1">
+                    <mxGeometry height="70" width="220" x="430" y="1360" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="¿Pago del saldo?" vertex="1">
+                    <mxGeometry height="110" width="210" x="435" y="1470" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="Pago al contado" vertex="1">
+                    <mxGeometry height="70" width="180" x="720" y="1490" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="Pagar en cuotas mensuales" vertex="1">
+                    <mxGeometry height="70" width="220" x="430" y="1620" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="¿Cantidad de cuotas?" vertex="1">
+                    <mxGeometry height="110" width="210" x="435" y="1730" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" value="Hasta 36 cuotas&#xa;(modalidad normal)" vertex="1">
+                    <mxGeometry height="70" width="180" x="720" y="1750" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" value="Hasta 48 cuotas&#xa;(casos especiales)" vertex="1">
+                    <mxGeometry height="70" width="180" x="180" y="1750" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=13;fontColor=#ffffff;" value="Seguimiento manual de cuotas&#xa;y vencimientos en Excel" vertex="1">
+                    <mxGeometry height="70" width="260" x="410" y="1880" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="Fin" vertex="1">
+                    <mxGeometry height="60" width="180" x="450" y="2000" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#CC0000;fontColor=#7F0000;fontSize=12;fontStyle=1;" value="PD01 - Disponibilidad&#xa;La consulta no garantiza que dos asesores&#xa;no separen simultáneamente el mismo lote." vertex="1">
+                    <mxGeometry height="100" width="270" x="760" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#CC0000;fontColor=#7F0000;fontSize=12;fontStyle=1;" value="PD02 - Seguimiento&#xa;Los plazos de separación y cuotas dependen&#xa;de actividades manuales." vertex="1">
+                    <mxGeometry height="100" width="270" x="760" y="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#CC0000;fontColor=#7F0000;fontSize=12;fontStyle=1;" value="PD03 - Cobranza&#xa;El reporte diario de cuotas vencidas tarda&#xa;aproximadamente una hora." vertex="1">
+                    <mxGeometry height="100" width="270" x="760" y="1880" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#CC0000;fontColor=#7F0000;fontSize=12;fontStyle=1;" value="PD04 - Visibilidad&#xa;Gerencia no cuenta con información centralizada&#xa;y confiable por proyecto." vertex="1">
+                    <mxGeometry height="100" width="270" x="760" y="2020" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD05" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#CC0000;fontColor=#7F0000;fontSize=12;fontStyle=1;" value="PD05 - Comunicación&#xa;No existe un mecanismo automatizado para&#xa;recordar los próximos vencimientos." vertex="1">
+                    <mxGeometry height="100" width="270" x="760" y="1620" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD01_EDGE" edge="1" parent="1" source="PD01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#CC0000;" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD02_EDGE" edge="1" parent="1" source="PD02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#CC0000;" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD03_EDGE" edge="1" parent="1" source="PD03" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#CC0000;" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD04_EDGE" edge="1" parent="1" source="PD04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#CC0000;" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="PD05_EDGE" edge="1" parent="1" source="PD05" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#CC0000;" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="5" value="No">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="6" value="Sí">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="8" value="Villa Sol">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="9" value="Conocido">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="10" value="Estándar">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" edge="1" parent="1" source="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="12" value="Sí">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="13" value="No">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" edge="1" parent="1" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" edge="1" parent="1" source="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" edge="1" parent="1" source="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="19" value="Sí">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" edge="1" parent="1" source="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="16" value="No">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" edge="1" parent="1" source="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="17" value="Sí">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" edge="1" parent="1" source="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="18" value="No">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" edge="1" parent="1" source="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" edge="1" parent="1" source="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="20" value="Sí">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" edge="1" parent="1" source="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="23" value="No">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="21" value="Sí">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="22" value="No">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" edge="1" parent="1" source="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" edge="1" parent="1" source="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" edge="1" parent="1" source="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" edge="1" parent="1" source="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" edge="1" parent="1" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="25" value="Contado">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" edge="1" parent="1" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="26" value="Cuotas">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" edge="1" parent="1" source="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" edge="1" parent="1" source="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" edge="1" parent="1" source="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="28" value="Normal">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" edge="1" parent="1" source="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="29" value="Especial">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" edge="1" parent="1" source="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" edge="1" parent="1" source="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="YSSzgeTvHMhT-DaxIEnN-78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=13;fontColor=#ffffff;" value="AUTOMATIZACIONES" vertex="1">
+                    <mxGeometry height="40" width="150" x="900" y="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="YSSzgeTvHMhT-DaxIEnN-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=13;fontColor=#ffffff;" value="PUNTOS DE DOLOR" vertex="1">
+                    <mxGeometry height="40" width="150" x="900" y="65" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
