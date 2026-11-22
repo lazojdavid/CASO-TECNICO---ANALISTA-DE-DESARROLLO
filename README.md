@@ -1,6 +1,8 @@
-<<<<<<< HEAD
+
 # Automatización de cartera de cuotas vencidas
 
+## Analista desarrollador 
+- Jorge David Vasquez Lazo
 
 ## Herramientas de IA usadas
 - Copilot fusion
