@@ -1,0 +1,11 @@
+2026-11-22 13:10:17,935 | INFO | No se ingresó fecha de corte. Se utilizará la fecha de hoy: 2026-11-22
+2026-11-22 13:10:17,936 | INFO | Inicio del proceso. Fecha de corte: 2026-11-22
+2026-11-22 13:10:17,943 | WARNING | Se detectaron 1 filas completamente duplicadas; se conservará una copia.
+2026-11-22 13:10:17,961 | WARNING | Se excluirán 9 registros con datos obligatorios inválidos o claves repetidas.
+2026-11-22 13:10:17,964 | WARNING | EmailAsesor está vacío en 12 registros. Asesores afectados: Martín Quispe
+2026-11-22 13:10:17,965 | INFO | Validación: {'filas_originales': 167, 'duplicados_exactos': 1, 'filas_invalidas': 9, 'filas_validas': 157, 'separaciones_anuladas': 12, 'cuotas_pagadas': 27, 'filas_sin_correo_asesor': 12, 'asesores_sin_correo': 1}
+2026-11-22 13:10:18,038 | INFO | Resultado: {'cuotas_vencidas': 5, 'asesores': 4, 'totales_por_asesor': {'Carla Mendoza': 10525.0, 'Jorge Salazar': 14985.72, 'Lucía Paredes': 0.0, 'Martín Quispe': 3356.67}, 'total_general': 28867.39}
+2026-11-22 13:10:18,039 | WARNING | No se abrirán borradores para estos asesores porque falta EmailAsesor: Martín Quispe
+2026-11-22 13:10:18,192 | INFO | Se abrió un borrador de Gmail para 3 destinatarios.
+2026-11-22 13:10:18,192 | INFO | Borrador de Gmail abierto con 3 destinatarios.
+2026-11-22 13:10:18,193 | INFO | Proceso finalizado correctamente. Archivo generado: C:\Users\vasqu\D\CASO TECNICO\PARTE 2 - AUTOMATIZACION\2A - Construye la automatizacion\output\reporte_cuotas_vencidas_20261122.xlsx

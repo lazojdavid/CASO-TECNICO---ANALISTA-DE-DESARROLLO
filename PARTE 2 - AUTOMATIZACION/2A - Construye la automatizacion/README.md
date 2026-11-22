@@ -79,7 +79,8 @@ python main.py --archivo data/cartera_cuotas.csv --fecha-corte 01/12/2026 --sali
 
 ## Salidas
 - `output/reporte_cuotas_vencidas_AAAAMMDD.xlsx`: una hoja por asesor, con detalle y total pendiente. Las ejecuciones del mismo día actualizan el archivo de esa fecha.
+- Se abre un único borrador de Gmail con todos los correos únicos de `EmailAsesor` en el campo Para, el asunto `Reporte de cuotas vencidas por asesor` y el mensaje "Se envía un reporte separado para cada asesor." El correo no se envía automáticamente ni se adjunta el Excel; revisa el borrador y adjunta el reporte si corresponde.
 - `logs/ejecucion_AAAAMMDD_HHMMSS_microsegundos.log`: validaciones, advertencias y errores de cada ejecución.
 
 ## Limitación detectada en el archivo entregado
-`EmailAsesor` no está informado para Martín Quispe. El Excel se genera de todas formas, pero se debe completar ese dato antes de automatizar el envío de correos.
+`EmailAsesor` no está informado para Martín Quispe. El Excel se genera de todas formas; el borrador incluirá solo a los asesores con correo informado.

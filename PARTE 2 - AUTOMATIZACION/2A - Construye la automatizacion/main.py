@@ -14,6 +14,8 @@ import pandas as pd
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
+from gmail_drafts import open_gmail_draft
+
 REQUIRED_COLUMNS = [
     "SeparacionId", "EstadoSeparacion", "Proyecto", "Manzana", "Lote",
     "Cliente", "Asesor", "NumeroCuota", "FechaVencimiento", "Monto",
@@ -150,7 +152,7 @@ def load_and_validate(csv_path: Path) -> tuple[pd.DataFrame, list[str], dict[str
     valid = df.loc[~invalid_mask].copy()
     valid["NumeroCuota_num"] = valid["NumeroCuota_num"].astype(int)
 
-    # El correo es opcional para generar el Excel, pero necesario para un futuro envío automático.
+    # El correo es opcional para generar el Excel, pero necesario para abrir borradores de Gmail.
     missing_email_rows = 0
     if "EmailAsesor" in valid.columns:
         missing_email_mask = valid["EmailAsesor"].isna() | valid["EmailAsesor"].astype(str).str.strip().eq("")
@@ -163,7 +165,7 @@ def load_and_validate(csv_path: Path) -> tuple[pd.DataFrame, list[str], dict[str
             )
     else:
         missing_emails = []
-        logging.warning("El CSV no contiene EmailAsesor; no se podrá automatizar el envío por correo.")
+        logging.warning("El CSV no contiene EmailAsesor; no se podrán abrir borradores de Gmail.")
 
     stats = {
         "filas_originales": source_rows,
@@ -307,9 +309,16 @@ def main() -> int:
         logging.info("Resultado: %s", report)
         if missing_emails:
             logging.warning(
-                "El Excel se generó, pero no se podrá enviar automáticamente por correo a: %s",
+                "No se abrirán borradores para estos asesores porque falta EmailAsesor: %s",
                 ", ".join(missing_emails),
             )
+        if "EmailAsesor" in valid.columns:
+            emails = valid["EmailAsesor"].dropna().astype(str).str.strip()
+            recipients = emails[emails.ne("")].tolist()
+        else:
+            recipients = []
+        recipient_count = open_gmail_draft(recipients)
+        logging.info("Borrador de Gmail abierto con %s destinatarios.", recipient_count)
         logging.info("Proceso finalizado correctamente. Archivo generado: %s", output_path)
         return 0
     except (FileNotFoundError, PermissionError, ValueError, pd.errors.ParserError) as exc:
