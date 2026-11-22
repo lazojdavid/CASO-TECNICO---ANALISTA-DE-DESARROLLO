@@ -91,6 +91,7 @@ python main.py --archivo data/cartera_cuotas.csv --fecha-corte 01/12/2026 --sali
 ## Salidas
 - `output/reporte_cuotas_vencidas_AAAAMMDD.xlsx`: una hoja por asesor, con detalle y total pendiente. Las ejecuciones del mismo día actualizan el archivo de esa fecha.
 - `logs/ejecucion_AAAAMMDD_HHMMSS_microsegundos.log`: validaciones, advertencias y errores de cada ejecución.
+- `Archivo excelopener.py`: Encargado de abrir el excel al momento de finalizar el script
 
 ## Limitación detectada en el archivo entregado
 - Hay un asesor cuyo correo no existe, por lo tanto al momento de generarse el correo, este no se enviará para este usuario, pero en el log si queda aclarado
