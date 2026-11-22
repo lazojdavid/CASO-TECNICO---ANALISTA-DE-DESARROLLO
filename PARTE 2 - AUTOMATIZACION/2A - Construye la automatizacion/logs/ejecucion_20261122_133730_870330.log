@@ -1,0 +1,33 @@
+2026-11-22 13:37:32,656 | INFO | No se ingresó fecha de corte. Se utilizará la fecha de hoy: 2026-11-22
+2026-11-22 13:37:32,656 | INFO | Inicio del proceso. Fecha de corte: 2026-11-22
+2026-11-22 13:37:32,665 | WARNING | Se detectaron 1 filas completamente duplicadas; se conservará una copia.
+2026-11-22 13:37:32,688 | WARNING | Se excluirán 9 registros con datos obligatorios inválidos o claves repetidas.
+2026-11-22 13:37:32,692 | WARNING | EmailAsesor está vacío en 12 registros. Asesores afectados: Martín Quispe
+2026-11-22 13:37:32,693 | INFO | Validación: {'filas_originales': 167, 'duplicados_exactos': 1, 'filas_invalidas': 9, 'filas_validas': 157, 'separaciones_anuladas': 12, 'cuotas_pagadas': 27, 'filas_sin_correo_asesor': 12, 'asesores_sin_correo': 1}
+2026-11-22 13:37:32,699 | ERROR | No se pudo completar el proceso: [Errno 13] Permission denied: 'C:\\Users\\vasqu\\D\\CASO TECNICO\\PARTE 2 - AUTOMATIZACION\\2A - Construye la automatizacion\\output\\reporte_cuotas_vencidas_20261122.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\vasqu\D\CASO TECNICO\PARTE 2 - AUTOMATIZACION\2A - Construye la automatizacion\main.py", line 99, in main
+    report = build_report(valid, cutoff, output_path)
+  File "c:\Users\vasqu\D\CASO TECNICO\PARTE 2 - AUTOMATIZACION\2A - Construye la automatizacion\report_generator.py", line 52, in build_report
+    with pd.ExcelWriter(output_path, engine="openpyxl", date_format="DD/MM/YYYY") as writer:
+         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vasqu\AppData\Roaming\Python\Python314\site-packages\pandas\io\excel\_openpyxl.py", line 62, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<3 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vasqu\AppData\Roaming\Python\Python314\site-packages\pandas\io\excel\_base.py", line 1281, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vasqu\AppData\Roaming\Python\Python314\site-packages\pandas\io\common.py", line 939, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\vasqu\\D\\CASO TECNICO\\PARTE 2 - AUTOMATIZACION\\2A - Construye la automatizacion\\output\\reporte_cuotas_vencidas_20261122.xlsx'

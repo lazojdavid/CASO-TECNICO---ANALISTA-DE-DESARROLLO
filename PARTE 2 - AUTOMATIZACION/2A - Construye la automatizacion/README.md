@@ -1,5 +1,9 @@
 # Automatización de cartera de cuotas vencidas
 
+El código está dividido por responsabilidad: `main.py` coordina, `data_loader.py`
+lee y valida el CSV, `report_generator.py` crea el Excel, `excel_opener.py` lo
+abre en Windows y `gmail_drafts.py` prepara el borrador de Gmail.
+
 ## Requisitos
 - Python 3.11 o superior.
 - Dependencias indicadas en `requirements.txt`.
@@ -10,6 +14,10 @@ Coloca los archivos así, usando la carpeta donde está `main.py` como raíz:
 ```text
 automatizacion_cartera/
 ├── main.py
+├── data_loader.py                  # Lectura y validación del CSV
+├── report_generator.py             # Generación y formato del Excel
+├── excel_opener.py                 # Apertura del Excel generado
+├── gmail_drafts.py                 # Preparación del borrador de Gmail
 ├── requirements.txt
 ├── data/
 │   └── cartera_cuotas.csv       # Debes crear esta carpeta y proporcionar el CSV
@@ -18,8 +26,10 @@ automatizacion_cartera/
 ```
 
 El programa lee por defecto `data/cartera_cuotas.csv`, guarda el Excel en
-`output/reporte_cuotas_vencidas.xlsx` y escribe cada ejecución en un log
-independiente con fecha y hora, por ejemplo `logs/ejecucion_20261122_084158_745000.log`.
+`output/` con un nombre único por ejecución, por ejemplo
+`reporte_cuotas_vencidas_20261122_084158_745000.xlsx`, y escribe cada ejecución
+en un log independiente con fecha y hora, por ejemplo
+`logs/ejecucion_20261122_084158_745000.log`.
 Por ello, solo es necesario crear `data/` y colocar allí
 el CSV; `output/` y `logs/` se crean si no existen. El CSV debe estar codificado
 en UTF-8 y separado por punto y coma (`;`). Sus columnas obligatorias son:
@@ -60,9 +70,9 @@ También se puede proporcionar la fecha como argumento:
 python main.py --fecha-corte 01/12/2026
 ```
 
-También se puede indicar otra ruta de entrada y salida. Al nombre del Excel
-se le agrega automáticamente la fecha de generación en formato `AAAAMMDD`;
-por ejemplo, `output/reporte_20261201.xlsx`:
+También se puede indicar otra ruta de entrada y salida. El programa agrega
+automáticamente fecha y hora al nombre del Excel para crear un archivo nuevo
+cada vez:
 
 ```powershell
 python main.py --archivo data/cartera_cuotas.csv --fecha-corte 01/12/2026 --salida output/reporte.xlsx
@@ -78,7 +88,7 @@ python main.py --archivo data/cartera_cuotas.csv --fecha-corte 01/12/2026 --sali
 - Los asesores sin cuotas vencidas también reciben una hoja con el mensaje correspondiente.
 
 ## Salidas
-- `output/reporte_cuotas_vencidas_AAAAMMDD.xlsx`: una hoja por asesor, con detalle y total pendiente. Las ejecuciones del mismo día actualizan el archivo de esa fecha.
+- `output/reporte_cuotas_vencidas_AAAAMMDD_HHMMSS_microsegundos.xlsx`: un archivo distinto por ejecución, con una hoja por asesor, detalle y total pendiente. Al terminar de generarlo, se abre con la aplicación predeterminada de Windows para archivos Excel.
 - Se abre un único borrador de Gmail con todos los correos únicos de `EmailAsesor` en el campo Para, el asunto `Reporte de cuotas vencidas por asesor` y el mensaje "Se envía un reporte separado para cada asesor." El correo no se envía automáticamente ni se adjunta el Excel; revisa el borrador y adjunta el reporte si corresponde.
 - `logs/ejecucion_AAAAMMDD_HHMMSS_microsegundos.log`: validaciones, advertencias y errores de cada ejecución.
 
